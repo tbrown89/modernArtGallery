@@ -1,5 +1,18 @@
 // Color Palette
+// Primary
 $color-primary: #D5966C;
+// Neutral
 $color-neutral-dark: #151515;
 $color-neutral-med-dark: #444;
 $color-neutral-light: #FFF;
+
+// Typography
+// Font Family
+$font-family-body: 'Outfit', sans-serif;
+$font-family-heading: 'Big Shoulders Display', cursive;
+
+// Font Size
+// body font-size for small and medium size devices
+$font-size-body: 1.125rem;
+// body font-size for desktop viewport
+$font-size-body-lg: 1.375rem;

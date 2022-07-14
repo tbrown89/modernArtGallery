@@ -1,0 +1,27 @@
+.btn {
+    font-family: $font-family-heading;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: .2275rem;
+    padding: 1.5rem 5.5rem 1.5rem 2rem;
+    border: none;
+}
+
+.btn-primary {
+    position: relative;
+    color: $color-neutral-light;
+    background-color: $color-neutral-dark;
+}
+
+.btn-primary::after {
+    content: url('../assets/icon-arrow-right.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 3.5rem;
+    background-color: $color-primary;
+}
