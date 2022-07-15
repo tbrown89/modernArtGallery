@@ -1,6 +1,7 @@
 .btn {
     font-family: $font-family-heading;
     font-size: 1.25rem;
+    font-weight: $font-weight-extraBold;
     text-transform: uppercase;
     letter-spacing: .2275rem;
     padding: 1.5rem 5.5rem 1.5rem 2rem;
@@ -24,4 +25,23 @@
     right: 0;
     width: 3.5rem;
     background-color: $color-primary;
+}
+
+.btn-primary:hover {
+    background-color: $color-primary;
+    cursor: pointer;
+}
+
+.btn-primary:hover::after {
+    background-color: $color-neutral-dark;
+}
+
+.btn-reverse {
+    padding: 1.5rem 2rem 1.5rem 5.5rem;
+}
+
+.btn-reverse::after {
+    content: url('../assets/icon-arrow-left.svg');
+    right: auto;
+    left: 0;
 }

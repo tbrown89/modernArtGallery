@@ -1,0 +1,87 @@
+.container {
+  max-width: 768px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #151515;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #151515;
+}
+
+h1 {
+  font-size: 3.75rem;
+  line-height: 1.09;
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2275rem;
+  padding: 1.5rem 5.5rem 1.5rem 2rem;
+  border: none;
+}
+
+.btn-primary {
+  position: relative;
+  color: #FFF;
+  background-color: #151515;
+}
+
+.btn-primary::after {
+  content: url("../assets/icon-arrow-right.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 3.5rem;
+  background-color: #D5966C;
+}
+
+.btn-primary:hover {
+  background-color: #D5966C;
+  cursor: pointer;
+}
+
+.btn-primary:hover::after {
+  background-color: #151515;
+}
+
+.btn-reverse {
+  padding: 1.5rem 2rem 1.5rem 5.5rem;
+}
+
+.btn-reverse::after {
+  content: url("../assets/icon-arrow-left.svg");
+  right: auto;
+  left: 0;
+}/*# sourceMappingURL=main.css.map */
