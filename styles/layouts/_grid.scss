@@ -1,0 +1,11 @@
+@media screen and (min-width: 750px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: .6875rem;
+    }
+
+    .discover {
+        order: -1;
+    }
+}

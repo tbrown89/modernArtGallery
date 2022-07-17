@@ -1,0 +1,36 @@
+// Footer Section
+.social {
+    display: flex;
+    gap: 1.25rem;
+}
+
+@media screen and (min-width: 750px) {
+
+    // Hero Section
+    .hero {
+        display: flex;
+        align-items: center;
+    }
+
+    // Photos Section
+    // Flex to center text in parent
+    .discover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    // Footer Section
+    footer .flex {
+        display: flex;
+        gap: 4rem;
+    }
+
+    .footer-para {
+        flex-basis: 40%;
+    }
+
+    .social {
+        margin-left: auto;
+    }
+}
