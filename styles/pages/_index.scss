@@ -23,17 +23,30 @@ footer p {
 @media screen and (min-width: 750px) {
 
     // Hero Section
+    .hero {
+        position: relative;
+        aspect-ratio: 768 / 700;
+    }
+
     .hero .container {
         width: 375px;
     }
 
     .hero-img {
-        min-width: 117%;
+        height: 100%;
         margin: 0;
     }
 
+    .hero picture {
+        aspect-ratio: 437 / 700;
+        height: 100%;
+    }
+
     .intro {
-        width: 115%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
     }
 
     .intro h1 {
@@ -43,5 +56,13 @@ footer p {
     // Footer Section
     footer p {
         margin: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bg-fill {
+        background-color: $color-neutral-dark;
+        width: 100%;
+        height: 500px;
     }
 }
