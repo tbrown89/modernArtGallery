@@ -1,0 +1,47 @@
+.bg-dark {
+    background-color: $color-neutral-dark;
+}
+
+// Photos Section (Last card)
+.inspired {
+    padding: 3rem 1.5rem;
+}
+
+.inspired p {
+    margin: 0;
+}
+
+// Footer Section
+.footer-logo {
+    margin-bottom: 2.375rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+
+    // Hero Section
+    .hero .container {
+        width: 375px;
+    }
+
+    .hero-img {
+        min-width: 117%;
+        margin: 0;
+    }
+
+    .intro {
+        width: 115%;
+    }
+
+    .intro h1 {
+        font-size: 4.375rem;
+    }
+
+    // Footer Section
+    footer p {
+        margin: 0;
+    }
+}

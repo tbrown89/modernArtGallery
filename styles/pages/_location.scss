@@ -1,0 +1,41 @@
+// Map Section
+.map {
+    margin: 0;
+}
+
+.map .btn {
+    position: absolute;
+    top: 0;
+}
+
+// Location Section
+.location {
+    margin: 0;
+}
+
+address span {
+    display: inline-block;
+    font-family: $font-family-heading;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: $color-primary;
+    margin-bottom: 1.25rem;
+}
+
+address {
+    margin-bottom: 1.25rem;
+}
+
+// Set margin to 0 to override margin on <p>
+.right p {
+    margin: 0;
+}
+
+// Footer
+.location-footer {
+    background-color: $color-primary;
+}
+
+.location-footer p {
+    font-size: 1rem;
+}
